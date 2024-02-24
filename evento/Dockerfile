@@ -21,7 +21,7 @@ FROM openjdk:17-alpine
 WORKDIR /app
 
 # Copy the built JAR file from the previous stage to the container
-COPY --from=build /app/target/evento.jar app.jar
+COPY --from=build /app/target/*.jar /app/app.jar
 
 #Expose port
 EXPOSE 8080

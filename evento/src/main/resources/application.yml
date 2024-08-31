@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: evento
+  datasource: 
+    url: jdbc:postgresql://dpg-cnd2445a73kc73b5nct0-a.singapore-postgres.render.com:5432/evento_db_user
+    password: MtUQ2wiJ1B8KvsNvS7XvEJffahLEkKSC
+    username: evento_db_user
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.PostgreSQLDialect
+        format-sql: true
+    show-sql: true
+
+
+

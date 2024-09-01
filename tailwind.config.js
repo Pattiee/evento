@@ -24,6 +24,15 @@ module.exports = {
         'lg': '.5rem',
         'full': '9999px',
         '4xl': '2rem'
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' }
+        },
+      },
+      animation: {
+        scroll: 'scroll 90s linear infinite',
       }
     },
     screens: {
@@ -41,7 +50,10 @@ module.exports = {
       black: '#22000E',
       white: '#fff',
       dark: '#333333',
-      primary: '#FF0054'
+      primary: '#FF0054',
+      neon_pink: '#ff00ff',
+      neon_green: '#39ff14',
+      neon_green_dark: '#32CC12',
     },
     opacity: {
       '0': '0',

@@ -1,3 +1,10 @@
 {
-    "java.configuration.updateBuildConfiguration": "automatic"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "files.associations": {
+        ".fantomasignore": "ignore",
+        "*.js": "javascriptreact",
+        "*.html": "django-html",
+        "plyconfig.json": "jsonc"
+    },
+    "iis.configDir": ""
 }

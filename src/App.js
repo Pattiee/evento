@@ -26,11 +26,13 @@ function App() {
         <Navbar/>
       </div>
 
-      <div className='pb-10 bg-dark'>
+      <div className='pb-10'>
         <Routes>
           <Route index path='/' element={<Index/>}/>
         </Routes>
       </div>
+
+      <hr/>
 
 
       <div className=''>
